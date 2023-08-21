@@ -1,20 +1,17 @@
 plugins {
-    id("com.android.application")
+    id("com.android.library")
     id("org.jetbrains.kotlin.android")
 }
 
 android {
-    namespace = "com.vd.study.android_useful_features"
+    namespace = "com.vd.study.kotlin_code"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.vd.study.android_useful_features"
         minSdk = 24
-        targetSdk = 33
-        versionCode = 1
-        versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
@@ -36,9 +33,6 @@ android {
 }
 
 dependencies {
-
-    implementation(project(":kotlin-code"))
-    implementation(project(":java-code"))
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
