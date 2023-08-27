@@ -4,4 +4,5 @@
 Repository will store code in two languages: Java and Kotlin.
 
 Implemented features:
+ * Observer Pattern
 
