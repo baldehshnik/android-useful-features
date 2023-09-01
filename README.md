@@ -12,3 +12,6 @@ Repository will store code in two languages: Java and Kotlin.
 
  * Gradle Features:
      * [Gradle Dependency Management using Kotlin and buildSrc](https://proandroiddev.com/gradle-dependency-management-with-kotlin-94eed4df9a28 "Gradle Dependency Management using buildSrc Information Resource") (Kotlin)
+
+ * MVI:
+    * [Container](https://medium.com/swlh/mvi-architecture-with-android-fcde123e3c4a "MVI Container Resource") (Java/Kotlin)
