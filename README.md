@@ -15,3 +15,6 @@ Repository will store code in two languages: Java and Kotlin.
 
  * MVI:
     * [Container](https://medium.com/swlh/mvi-architecture-with-android-fcde123e3c4a "MVI Container Resource") (Java/Kotlin)
+  
+ * Binding:
+    * [View Binding Delegate](https://habr.com/ru/companies/broadcast/articles/501158/ "View Binding Delafate for fragments") for Fragments (Kotlin)
