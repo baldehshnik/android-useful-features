@@ -16,7 +16,8 @@ class FragmentViewBindingDelegate<VB : ViewBinding>(
     private val fragment: Fragment,
     private val viewModelClass: Class<VB>
 ) {
-    var binding: VB? = null
+
+    private var binding: VB? = null
 
     operator fun getValue(thisRef: Any?, property: KProperty<*>): VB {
         val owner = fragment.viewLifecycleOwner
