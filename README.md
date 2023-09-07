@@ -22,3 +22,4 @@ Repository will store code in two languages: Java and Kotlin.
 
  * Dagger:
     * [Dagger](https://developer.android.com/training/dependency-injection/dagger-android "Dagger in Android") Component Extension Field (Kotlin)
+    * [Compose function to create view model with dagger](https://proandroiddev.com/dagger-2-and-jetpack-compose-integration-8a8d424ffdb4 "Dagger with compose navigation") (Kotlin)
