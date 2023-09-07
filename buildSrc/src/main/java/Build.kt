@@ -9,6 +9,9 @@ object Build {
         object Android {
             const val CoreKtx = "androidx.core:core-ktx:1.9.0"
             const val AppCompat = "androidx.appcompat:appcompat:1.6.1"
+
+            const val ComposeMaterial3 = "androidx.compose.material3:material3:1.1.1"
+            const val ComposeViewModel = "androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1"
         }
 
         object Google {

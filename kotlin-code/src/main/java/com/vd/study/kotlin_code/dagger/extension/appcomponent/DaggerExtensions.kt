@@ -1,4 +1,4 @@
-package com.vd.study.kotlin_code.dagger
+package com.vd.study.kotlin_code.dagger.extension.appcomponent
 
 import android.content.Context
 

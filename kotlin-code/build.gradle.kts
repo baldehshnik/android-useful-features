@@ -40,6 +40,10 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        compose = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.4.1"
     }
 }
 
@@ -47,6 +51,8 @@ dependencies {
 
     implementation(Build.Libs.Android.CoreKtx)
     implementation(Build.Libs.Android.AppCompat)
+    implementation(Build.Libs.Android.ComposeMaterial3)
+    implementation(Build.Libs.Android.ComposeViewModel)
 
     implementation(Build.Libs.Google.Material)
     implementation(Build.Libs.Google.Dagger)
