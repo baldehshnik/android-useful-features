@@ -19,3 +19,6 @@ Repository will store code in two languages: Java and Kotlin.
  * Binding:
     * [View Binding Delegate](https://habr.com/ru/companies/broadcast/articles/501158/ "View Binding Delafate for fragments") for Fragments (Kotlin)
     * [View Binding Delegate](https://proandroiddev.com/viewbinding-with-kotlin-property-delegate-c907682e24c9 "View Binding Delafate for activities") for Activities (Kotlin)
+
+ * Dagger:
+    * [Dagger](https://developer.android.com/training/dependency-injection/dagger-android "Dagger in Android") Component Extension Field (Kotlin)
