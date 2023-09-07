@@ -1,5 +1,6 @@
 object Build {
 
+    const val TargetSdk = 33
     const val CompileSdk = 33
     const val MinSdk = 24
 
@@ -11,7 +12,11 @@ object Build {
         }
 
         object Google {
+            const val DaggerVersion = "2.48"
+
             const val Material = "com.google.android.material:material:1.9.0"
+            const val Dagger = "com.google.dagger:dagger:$DaggerVersion"
+            const val DaggerCompiler = "com.google.dagger:dagger-compiler:$DaggerVersion"
         }
 
         object Testing {

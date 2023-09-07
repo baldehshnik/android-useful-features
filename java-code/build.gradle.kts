@@ -32,7 +32,9 @@ dependencies {
 
     implementation(Build.Libs.Android.CoreKtx)
     implementation(Build.Libs.Android.AppCompat)
+
     implementation(Build.Libs.Google.Material)
+
     testImplementation(Build.Libs.Testing.JUnit)
     androidTestImplementation(Build.Libs.Testing.JUnitEXT)
     androidTestImplementation(Build.Libs.Testing.EspressoCore)

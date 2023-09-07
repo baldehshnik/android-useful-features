@@ -10,7 +10,7 @@ android {
     defaultConfig {
         applicationId = "com.vd.study.android_useful_features"
         minSdk = Build.MinSdk
-        targetSdk = 33
+        targetSdk = Build.TargetSdk
         versionCode = 1
         versionName = "1.0"
 
@@ -42,7 +42,9 @@ dependencies {
 
     implementation(Build.Libs.Android.CoreKtx)
     implementation(Build.Libs.Android.AppCompat)
+
     implementation(Build.Libs.Google.Material)
+
     testImplementation(Build.Libs.Testing.JUnit)
     androidTestImplementation(Build.Libs.Testing.JUnitEXT)
     androidTestImplementation(Build.Libs.Testing.EspressoCore)
