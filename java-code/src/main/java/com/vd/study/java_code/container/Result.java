@@ -2,42 +2,39 @@ package com.vd.study.java_code.container;
 
 public abstract class Result<T> {
 
+
     public abstract T getOrNull();
 
     public abstract T getOrException() throws Exception;
 
-    static final class Progress extends Result<Void> {
+    static final class Progress<T> extends Result<T> {
 
         @Override
-        public Void getOrNull() {
+        public T getOrNull() {
             return null;
         }
 
         @Override
-        public Void getOrException() {
+        public T getOrException() {
             throw new IllegalArgumentException("This component has not a value");
         }
     }
 
-    static final class Error extends Result<Void> {
+    static final class Error<T> extends Result<T> {
 
         private final Exception exception;
-
-        public Exception getException() {
-            return exception;
-        }
 
         public Error(Exception exception) {
             this.exception = exception;
         }
 
         @Override
-        public Void getOrNull() {
+        public T getOrNull() {
             return null;
         }
 
         @Override
-        public Void getOrException() throws Exception {
+        public T getOrException() throws Exception {
             throw exception;
         }
     }
